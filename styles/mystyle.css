@@ -1,0 +1,171 @@
+    /* Jovonda Robinson 10/01/2021 */
+    /* .class-index
+    {
+    background-color:	#ed66ff65;
+    } */
+    html
+    {
+      min-height: 100%;
+      min-width: 100%;
+    }
+    .class-shounen
+    {
+        background-color: #ff9100;
+    }
+    .class-videos
+    {
+        background-color: #ccfffb;
+    }
+
+    h1
+    {
+        color: white;
+    }
+    .h1-index
+    {
+        color:	#0904fa65;
+    }
+    .h1-mystery
+    {
+        color: #4b91ec;
+    }
+    .h1-shounen
+    {
+        color: #ffe606;
+    }
+    .h1-videos
+    {
+        color: #850a0a;
+    }
+    h2
+    {   font-weight: bold;
+        clear: left;
+    }
+    p
+    {
+        color: navy;
+        text-align: justify;
+    }
+    .p-index
+    {
+        color:	#0804fa91;
+        text-align: justify;
+    }
+    .p-videos
+    {
+        color: #5c5300fa;
+    }
+
+    li
+    {
+        list-style-type: none;
+        color: #0f41e4;
+    }
+    .li-shounen
+    {
+        color: #6a039b;
+    }
+    .li-mystery
+    {
+
+        color:#fcff66f8
+    }
+
+    .header-mystery
+    {
+       background-image: url("../images/mysterytree.jpg");
+       background-repeat: no-repeat;
+    }
+    .header-shounen
+    {
+        background-image: url("../images/action.jpg");
+        background-repeat: no-repeat;
+    }
+    .header-welcome
+    {
+        background-image: url("../images/welcome.jpg");
+        background-repeat: no-repeat;
+    }
+    .header-trailer
+    {
+        background-image: url("../images/trailer.jpg");
+        background-repeat: no-repeat;
+    }
+    #mystery_grad
+    {
+        background-image: linear-gradient(rgb(109, 0, 128), rgb(8, 185, 255));
+    }
+
+    #shounen_grad
+    {
+        background-image: linear-gradient(rgb(226, 8, 8), rgba(255, 239, 8, 0.883));
+    }
+
+    #welcome_grad
+    {
+        background-image: linear-gradient(rgb(245, 130, 245), rgb(253, 197, 206));
+    }
+
+    #vid_grad
+    {
+        background-image: linear-gradient(rgb(245, 130, 245), rgb(16, 245, 245));
+    }
+
+    #Yu
+    {
+        float: left;
+        padding-right: 20px;
+        padding-bottom: 15px;
+    }
+      #floatleft
+    {
+        float: left;
+        margin: 10px 10px 10px 10px;
+    }
+      #floatright
+    {
+      float:right;
+      margin: 10px 10px 10px 10px;
+    }
+
+    nav a
+    {
+        width:100px;
+        height:50px;
+        text-decoration: none;
+        padding: 2px;
+        background-color: #B3C7E6;
+        border-bottom: 1px white solid;
+        border-spacing: 10px;
+        font-size: 20px;
+        display: block;
+
+    }
+
+    nav a:link
+    {
+        color: #2a2a2a;
+    }
+    nav a:visited
+    {
+        color: #EAEAEA;
+    }
+    nav a:hover
+    {
+        color: #869DC7;
+        background-color: #404040;
+    }
+
+    @media only screen and (max-width:1024px)
+        {
+          body { margin: 0;}
+         #wrapper { width: auto;}
+        main { margin-left: 0;}
+        nav { float: none; width: auto;}
+
+        nav li { display: inline-block; padding: 0.5em;}
+         nav ul { text-align: justify;}
+         nav a { border-style: none;}
+         h1, h2 { font-size: 120%;}
+         p {font-size: 90%;}
+        }
