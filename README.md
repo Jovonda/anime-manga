@@ -1,6 +1,6 @@
 # Anime-Manga__facts_and_recommend_site
 # Description
-##This is a small project that I did in a web development class, it is about (majority) anime and (not a lot) manga. 
+## This is a small project that I did in a web development class, it is about (majority) anime and (not a lot) manga. 
 # What is used
 ## Mostly what is used here is HTML and CSS
 # Why was this made
